@@ -2,7 +2,7 @@
 %Title       : inecuaciones en octave 
 %Descripcion : Se realizara el codigo que resuelva inecuaciones y grafique 
 %Author      : Jafet Martinez Meza, Adriana Trejo Patricio , Jonathan Aparicio Quintanar 
-%Date        : 202123653, 202123048,  
+%Date        : 202123653, 202123048,202123172
 %Version     : 1.0
 %Usage       : C:\Users\Toshiba\Documents\octave XD
 "inecuaciones de primer grado "
@@ -16,7 +16,7 @@ solve (2*x^2 -x < 2*x-1)
 "inecuaciones de valor absoluto"
 abs (x+6)
 abs (2*x+3)
-
+abs (3*x+4)
 syms x 
 f=x-1 
 subplot(3,3,1)
